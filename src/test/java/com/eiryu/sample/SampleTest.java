@@ -9,8 +9,8 @@ public class SampleTest {
 
 	@Test
 	public void testSum() {
-		int result = Sample.sum(1, 2);
-		assertThat(result, is(3));
+		int result = Sample.sum(1, 3);
+		assertThat(result, is(4));
 	}
 
 }
